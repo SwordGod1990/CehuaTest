@@ -250,7 +250,7 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
      * @param view
      */
     public void showBtn(View view) {
-        
+        scrollToMenu();
     }
 
     class ScrollTask extends AsyncTask<Integer, Integer, Integer> {
